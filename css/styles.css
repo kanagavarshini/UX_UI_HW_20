@@ -1,0 +1,379 @@
+h1, h2, h3 , h4, h5, h6 {
+    font-family:  "Lora", Times, serif;
+  }
+  p {
+    font-family:  "Lora", Times, serif;
+    font-size: 32px;
+  }
+  
+  html, body {
+  
+    scroll-behavior: smooth;
+  }
+  /* Header nav content */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    /* background-color: transparent !important; */
+    background-color: rgb(224, 84, 84) !important; 
+    background-size: cover; 
+    z-index: 10;
+    height:60px;
+    margin: auto;
+  }
+  h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight:bold;
+    color: rgb(224, 84, 84);
+  }
+  p{
+    font-size:24px;
+  }
+   /* Navigation links */
+  .custom ul{
+    
+      list-style: none;
+      padding-left: 0;
+  }
+  
+  
+  .navbar-nav {
+    margin-left: 840px;
+    
+    /* margin-left: auto; */
+    /* margin-right: 0 !important; */
+  }
+  .navbar-brand{
+    margin-left: 150px;
+  }
+  .navbar-brand img {
+    padding-bottom: 10px;
+    padding-right: 15px;
+    width:75px;
+  }
+  .nav-item {
+    margin: 0px 15px ;
+    
+  }
+ 
+  .customNav a {
+    color:white !important;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+  /* Hero image and content */
+.hero-bkg-animated {
+  background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 75px;
+  margin-right: 0;
+  margin-top: 0;
+  text-align: center;
+  height: 600px;
+  box-sizing: border-box;
+  animation: slide 20s linear infinite;
+}
+
+.hero-bkg-animated h1 {
+  font-family: "Lora", Times, serif;
+}
+
+@keyframes slide {
+  from { background-position: 0 0; }
+  to { background-position: -400px 0; }
+}
+.heroContent{
+   
+    padding-top: 10%;
+    max-width:80%;
+  
+}
+.headerTxt{
+  font-size: 25px;
+  text-align: left;
+}
+
+
+a{
+  color:white;
+}
+/* My work */
+.content1{
+  
+  margin-top: 100px;
+  margin-right: 15px;
+  margin-left: 75px;
+  
+}
+.valueProp p{
+  font-size: 22px;
+  text-align: left;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  
+}
+ 
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  margin-left: 0px;
+}
+.valueProp {
+  margin-top: 15px;
+  width: 80%;
+  margin-left: 75px;
+  padding-bottom: 20px;
+}
+
+.sectionHeading1 {
+  text-align: left;
+  margin-left: 75px; 
+  margin-bottom: 75px;
+  color:rgb(224, 84, 84);
+}
+.valueProp h2{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 32px ;
+}
+
+/* My skills Cards */
+.content {
+  margin-top: 100px;
+  margin-right: 15px;
+  margin-left: 130px;
+  
+}
+.sectionHeading {
+  text-align: left;
+  margin-left: 30px; 
+  margin-bottom: 75px;
+  color:rgb(224, 84, 84);
+}
+.content p{
+  font-size: 22px;
+}
+.skills  {
+  padding: 0px  ;
+}
+.cardContainer {
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+  border: none;
+}
+.cardContainer img{
+  display: block;
+  width:30%;
+  margin: auto;
+  
+}
+
+
+  .jumbotron{
+    background-image: url("../images/Group\ 2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    margin: 80px 0px 0px 0px;
+    
+    border-radius: .8rem;
+}
+/* .jumboCopy {
+  
+  margin-left: 10px;
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: black;
+  text-shadow:teal;
+  text-align: left;
+} */
+.heroText{
+  font-family: "Lora", Times, serif;
+  font-size: 52px;
+  color:black;
+  padding: 0px 0px 0px 40px;
+  margin: -40px 0px 0px 0px;
+}
+
+.nav-link{
+  font-family: "Lora", Times, serif;
+}
+
+.heroDesc{
+  font-family: "Lora", Times, serif;
+  font-size: 28px;
+  color: black;
+  padding: 0px 0px 0px 40px;
+}
+.card{
+  margin-bottom: 30px;
+  border: none;
+}
+
+/* card flip */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background-color: white !important;
+}
+.survey{
+  background-color: transparent;
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border-color: #eee;
+    background: #ffffff !important;
+
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .b ackside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+     transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+/* .frontside .card .card-title,
+.backside .card .card-title {
+    font-weight:bolder;
+    color: #007b5e !important;
+} */
+
+.backside .card .card-body img {
+    width: 100%;
+    height: 200px;
+   
+}
+.whiskers{
+  
+  background-image: url("../images/whiskersproto.png");
+  background-size:500px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-position: right;
+}
+.prototype{
+  
+  margin-left: 45px;
+}
+/* footer */
+
+footer {
+
+  background-color:  rgb(224, 84, 84);
+  
+  margin-top: 50px;
+  margin-bottom: 50px;;
+  color: white;
+  
+}
+.sectionHeading2{
+  text-align: center;
+  margin-top: 0;
+  padding-bottom: 30px;
+  color: white;
+}
+footer ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-evenly;
+  list-style: none;
+  
+  
+}
+footer a{
+  color: white;
+}
